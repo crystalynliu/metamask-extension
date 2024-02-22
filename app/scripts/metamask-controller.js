@@ -1316,7 +1316,7 @@ export default class MetamaskController extends EventEmitter {
     this.on('controllerConnectionChanged', (activeControllerConnections) => {
       const { completedOnboarding } =
         this.onboardingController.store.getState();
-      if (activeControllerConnections > 0 && completedOnboarding) {
+      if (activeControllerConnections > 0 && completedOnboarding && this.isUnlocked()) {
         this.triggerNetworkrequests();
       } else {
         this.stopNetworkRequests();
