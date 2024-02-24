@@ -188,7 +188,7 @@ describe('Send ETH', function () {
           await driver.clickElement({ text: 'Confirm', tag: 'button' });
 
           // Go back to home screen to check txn
-          const balance = await driver.findElement({
+          await driver.findElement({
             css: '[data-testid="eth-overview__primary-currency"]',
             text: '$42,496.38',
           });
