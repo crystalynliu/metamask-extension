@@ -700,7 +700,7 @@ export default class AdvancedTab extends PureComponent {
         {this.renderToggleExtensionInFullSizeView()}
         {this.renderUseNonceOptIn()}
         {this.renderAutoLockTimeLimit()}
-        {this.renderUserDataBackup()}
+        {/* {this.renderUserDataBackup()} */}
         {this.renderRestoreUserData()}
         {this.renderDismissSeedBackupReminderControl()}
         {this.renderToggleEthSignControl()}
