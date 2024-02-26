@@ -1860,6 +1860,7 @@
     },
     "@metamask/snaps-sdk": {
       "globals": {
+        "assert": true,
         "fetch": true
       },
       "packages": {
@@ -1936,10 +1937,7 @@
         "@metamask/utils": true,
         "@metamask/utils>@noble/hashes": true,
         "@metamask/utils>@scure/base": true,
-        "browserify": true,
         "browserify>buffer": true,
-        "browserify>path-browserify": true,
-        "browserify>process": true,
         "chalk": true,
         "semver": true,
         "superstruct": true
@@ -2605,11 +2603,6 @@
       "packages": {
         "browserify>stream-http": true,
         "browserify>url": true
-      }
-    },
-    "browserify>path-browserify": {
-      "packages": {
-        "browserify>process": true
       }
     },
     "browserify>process": {
