@@ -173,12 +173,12 @@ export const AccountListItemMenu = ({
     >
       <ModalFocus restoreFocus initialFocusRef={anchorElement}>
         <div onKeyDown={handleKeyDown} ref={popoverDialogRef}>
-          <AccountDetailsMenuItem
+          {/* <AccountDetailsMenuItem
             metricsLocation={METRICS_LOCATION}
             closeMenu={closeMenu}
             address={identity.address}
             textProps={{ variant: TextVariant.bodySm }}
-          />
+          /> */}
           <ViewExplorerMenuItem
             metricsLocation={METRICS_LOCATION}
             closeMenu={closeMenu}

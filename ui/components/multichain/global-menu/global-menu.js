@@ -145,11 +145,11 @@ export const GlobalMenu = ({ closeMenu, anchorElement, isOpen }) => {
     >
       {account && (
         <>
-          <AccountDetailsMenuItem
+          {/* <AccountDetailsMenuItem
             metricsLocation={METRICS_LOCATION}
             closeMenu={closeMenu}
             address={account.address}
-          />
+          /> */}
           <ViewExplorerMenuItem
             metricsLocation={METRICS_LOCATION}
             closeMenu={closeMenu}
