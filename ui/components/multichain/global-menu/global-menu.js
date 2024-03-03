@@ -69,7 +69,7 @@ import {
   TextVariant,
 } from '../../../helpers/constants/design-system';
 ///: END:ONLY_INCLUDE_IF
-import { AccountDetailsMenuItem, ViewExplorerMenuItem } from '..';
+import { ViewExplorerMenuItem } from '..';
 
 const METRICS_LOCATION = 'Global Menu';
 
